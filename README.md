@@ -5,6 +5,7 @@
 A bank wants to build a machine learning model that can predict whether a customer will default on a loan based on their financial, demographic, and transaction details.
 
 
+GitHub Link -https://github.com/RAJ9523/project1--Machine-Learning-in-Banking-/tree/main
 
 A machine learning pipeline to predict loan default using Logistic Regression, Random Forest, and XGBoost.
 Includes preprocessing, feature engineering, model training, and evaluation.
