@@ -10,6 +10,8 @@ A machine learning pipeline to predict loan default using Logistic Regression, R
 Includes preprocessing, feature engineering, model training, and evaluation.
 
  1.Dataset
+
+ 
 Target column: Default
  Loaded from:
 df = pd.read_csv("Loan_default.csv")
@@ -47,7 +49,9 @@ models = {
 
 Each model is wrapped in a pipeline and trained.
 
-4. Evaluation 
+4. Evaluation
+
+
 Metrics computed:
 accuracy_score, precision_score, recall_score, f1_score, roc_auc_score
 
