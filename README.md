@@ -45,8 +45,7 @@ models = {
 
 Each model is wrapped in a pipeline and trained.
 
-4. Evaluation
-5. 
+4. Evaluation 
 Metrics computed:
 accuracy_score, precision_score, recall_score, f1_score, roc_auc_score
 
