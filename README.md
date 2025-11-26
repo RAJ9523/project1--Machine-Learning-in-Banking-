@@ -15,6 +15,7 @@ Target column: Default
 df = pd.read_csv("Loan_default.csv")
 
 2.Preprocessing
+
 Identify columns:
 numeric_cols = X.select_dtypes(include=['int64','float64'])
 categorical_cols = X.select_dtypes(include=['object'])
@@ -30,6 +31,7 @@ Combined using ColumnTransformer.
 Untitled document
 
 Feature Engineering
+
 X["Income_to_Loan"] = X["Income"] / (X["LoanAmount"] + 1)
 X["CreditLines_per_Year"] = X["NumCreditLines"] / ((X["MonthsEmployed"]/12) + 1)
 
@@ -63,6 +65,7 @@ sns.heatmap(cm, annot=True)
 
 
  Best Model
+ 
 Sorted by ROC-AUC:
 best = results_df.sort_values("ROC-AUC", ascending=False).iloc[0]
 
